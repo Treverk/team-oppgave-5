@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.invoku.net/library/css/colors.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Team oppgave 5</title>
+</head>
+<body class="d-gray dark2">
+    <div class="container d-gray light2" id="app">
+        <h1>Morse Translator</h1>
+        <label for="sound-toggle">
+            <input type="checkbox" id="sound-toggle" checked/> Enable sound
+        </label>
+        <input type="text" id="text-value" oninput="toMorseCode(this.value);"/>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
